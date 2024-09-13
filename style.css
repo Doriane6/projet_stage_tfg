@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+main{
+        line-height: 2; /* ou 150% */
+        
+    
+}
+header{
+    background-image: url('background.jpg');
+    animation: scrollBackground 20s  infinite;
+    background-position: 50% 30%; /* Ajustez les valeurs pour afficher la partie souhaitée */
+    background-size: cover;
+    height: 43em;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    
+}
+header img{
+    width: 20em;
+    height: 23em;
+    text-align: center;
+    margin-top: 10em;
+    border-radius: 50%;
+}
+.mon_image{
+    display: flex;
+    justify-content: center;
+    animation: scrollBackground 20s  infinite;
+}
+.en-tete h1, .en-tete a{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    animation: scrollBackground 20s  infinite;
+    font-size: 16px;
+    
+   
+}
+.en-tete a :hover{
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+}
+.coordonees{
+    line-height: 7em;
+    color: white;
+    margin-left: 0;
+
+}
+.coordonees li{
+    list-style:  none;
+}
+
+.coordonees li a{
+    font-weight: bold;
+    color: white;   
+}
+
+
+p, li{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+}
+
+.mes_coordonees a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.contact :hover, .email:hover, .nationalité :hover, .addresse:hover{
+    color: yellow;
+    border-bottom: yellow 5px solid;
+    padding-bottom: 10px;
+    text-decoration: none;
+    
+}
+.icon :hover{
+    color: yellow;
+    padding-bottom: 10px;
+    margin: 5em;
+    border: none;
+    
+}
+.biographie{
+    margin: 0 20% 0;
+}
+main h1{
+    margin: 50px;
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Embed code', sans-serif;
+    letter-spacing: 2px;
+}
+.section_contact{
+    
+    background: radial-gradient(circle at center, #D7AF70, #C8B8DB);
+    height: auto;
+    margin-top: 100px;
+
+}
+.contact-coordonnees{
+    display: flex;
+    justify-content: center;
+}
+.section_contact img{
+    width: 40%;
+}
+.section_contact h1{
+    text-align: center;
+    padding: 50px;  
+    color: palevioletred;
+}
+.mes-champs{
+    font-size: 18px;
+    width: 50%;
+}
+#message{
+    margin-left: 2em;
+   
+}
+#section-message{
+    width: 85%;
+    height: 5em;
+}
+.champ-email, .champ-nom, .champ-prénom, .champ-objet{
+    width: 20em;
+    height: 3em;
+    border-radius: 5px;
+    margin: 2em;
+}
+.bouton-denvoi p{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: auto;
+}
+.bouton-denvoi{
+    margin: 2em 10em;
+    width: 44.5em;
+    border-radius: 10px;
+   
+
+}
+.envoi{
+    padding: 10px 8em;
+    border: white;
+    font-size: 20px;
+    border-radius: 5px ;
+    color: green;
+    font-weight: bold;
+
+}
+.bouton-denvoi :active{
+    padding: 7px 7em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.bouton-denvoi :hover{
+    background-color: green;
+    color: white;
+}
+.centres-dinteret {
+   margin: 0 20%;
+  
+}
+.centres-dinteret img{
+    height: 50em;
+    width: 20em;
+}
+.centres-dinteret span {
+    font-size: 30px;
+    color: black;
+}
+.centres-dinteret span {
+    color: white;
+}
+button{
+    background-color: black;
+}
+.centres-dinteret p{
+    font-size: 30px;
+}
+textarea{
+    width: 20em;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 10em;
+}
+header h1{
+    font-size: 18px;
+    text-align: justify;
+    
+}
+#img{
+    width: 50%;
+}
+.première-question h1{
+    color: #4c2270;
+    animation: colorChange2 2s infinite;
+}
+.deuxième-question h1{
+    color: #D00000;
+    animation: colorChange1 2s infinite;
+}
+.troisième-question h1{
+    color: #3F88C5;
+    animation: colorChange3 2s infinite;
+}
+span{
+    font-weight: bold;
+}
+li{
+    margin-left: 5em;
+}
+
+.première-question, .deuxième-question{
+    border-bottom: rgb(76, 76, 134) solid;
+    padding-bottom: 5em;
+}
+footer{
+    height: 3em;
+    text-align: center;
+}
+footer a{
+    color: black;
+    margin: 0 3em;
+    color: grey;
+
+}
+footer a :hover{
+    color: black;
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    color: grey;
+}
+ion-icon {
+    font-size: 96px;
+  }
+  .realisations{
+    display: flex;
+    margin-left: 85%;
+  }
+  .realisations :hover{
+    color: black;
+    text-decoration: none;
+  }
+  .realisations .active{
+    opacity: 0.5;
+  }
+@keyframes colorChange1 {
+    0% { color: black; }
+    100% { color: #46351D; }
+}
+
+@keyframes colorChange2 {
+    0% { color:black; }
+    100% { color: #7D4F50; }
+}
+@keyframes colorChange3 {
+    0% { color: black; }
+    100% { color:#523747; }
+}
+@keyframes scrollBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -1000px 0;
+    }
+}
+
+
+
+/* main{
+    background: linear-gradient(to right, blue, pink);
+} */
+/* .deuxième-question{
+    background-color: #DEC4A1;
+}
+.troisième-question{
+    background-color: #DEC4A1;
+} */
+
+/*responsivité*/
+/* Pour les petits écrans (smartphones) */
+@media only screen and (max-width: 768px) {
+    header {
+        height: auto;
+    }
+    
+    .mon_image img {
+        width: 10em;
+        height: 12em;
+        margin-top: 2em;
+    }
+
+    .en-tete h1 {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+    .en-tete a {
+        font-size: 12px;
+    }
+
+    main h1 {
+        font-size: 35px;
+    }
+
+    .biographie {
+        margin: 0 5%;
+    }
+
+    .centres-dinteret img {
+        height: auto;
+        width: 100%;
+    }
+
+    .mes-champs {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .champ-nom, .champ-prénom, .champ-email, .champ-objet {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .bouton-denvoi {
+        margin: 1em 0;
+        width: 100%;
+    }
+
+    .bouton-denvoi input {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* Pour les tablettes */
+@media only screen and (min-width: 500px) and (max-width: 1024px) {
+    header {
+        height: auto;
+    }
+
+    .mon_image img {
+        width: 15em;
+        height: 18em;
+    }
+
+    .en-tete h1 {
+        font-size: 18px;
+    }
+
+    .en-tete a {
+        font-size: 14px;
+    }
+
+    main h1 {
+        font-size: 45px;
+    }
+
+    .biographie {
+        margin: 0 10%;
+    }
+
+    .mes-champs {
+        width: 80%;
+    }
+
+    .champ-nom, .champ-prénom, .champ-email, .champ-objet {
+        width: 45%;
+    }
+
+    textarea {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .bouton-denvoi {
+        margin: 2em 0;
+        width: 80%;
+    }
+
+    .bouton-denvoi input {
+        padding: 10px 5em;
+    }
+}
